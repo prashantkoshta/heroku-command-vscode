@@ -1,6 +1,6 @@
 # heroku-command README
 
-This is the README for your extension "heroku-command".
+This help to developer to run heroku nodejs command by VS code and with Keyshortcut.
 
 ## Features
 
@@ -8,7 +8,7 @@ Run heroku command form vs code.
 
 ## Requirements
 
-You have to install follwoing software should be install before use of this.
+You have to install following software should be install before use of this.
 1. nodejs
 2. git
 3. heroku
@@ -18,9 +18,6 @@ You have to install follwoing software should be install before use of this.
 
 This release include only Heroku command for nodejs based applications.
 
-### 1.0.0
+### 0.0.1
 
-Initial release of ...
-
-
-**Enjoy!**
+Command line approach for heroku nodejs.
