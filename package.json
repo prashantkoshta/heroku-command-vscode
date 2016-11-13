@@ -4,11 +4,11 @@
     "description": "Run heroku from vscode commandline for nodejs",
     "icon": "images/herokuIcon.svg",
     "version": "0.0.1",
-    "publisher": "PrashantKoshta",
+    "publisher": "pkosta2005",
     "license": "SEE LICENSE IN LICENSE.md",
 	"bugs": {
 		"url": "https://github.com/prashantkoshta/heroku-command-vscode/issues",
-		"email": "pkosta2005@gmail.com"
+		"email": "pkosta2005@outlook.com"
 	},
 	"homepage": "https://github.com/prashantkoshta/heroku-command-vscode/blob/master/README.md",
 	"repository": {
