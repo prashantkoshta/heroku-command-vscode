@@ -1,14 +1,14 @@
 {
     "name": "heroku-command",
-    "displayName": "heroku-command-vscode",
-    "description": "Run heroku from vscode commandline for nodejs",
+    "displayName": "heroku-cli",
+    "description": "Run heroku from vscode commandline for nodejs projects.",
     "icon": "images/herokuIcon.svg",
     "version": "0.0.4",
-    "publisher": "PrashantKoshta",
+    "publisher": "pkosta2005",
     "license": "SEE LICENSE IN LICENSE.md",
 	"bugs": {
 		"url": "https://github.com/prashantkoshta/heroku-command-vscode/issues",
-		"email": "pkosta2005@gmail.com"
+		"email": "pkosta2005@outlook.com"
 	},
 	"homepage": "https://github.com/prashantkoshta/heroku-command-vscode/blob/master/README.md",
 	"repository": {
@@ -16,7 +16,7 @@
 		"url": "https://github.com/prashantkoshta/heroku-command-vscode.git"
 	},
 	"categories": [
-		"Productivity", "Languages", "Other"
+		"Keymaps", "Languages", "Other"
 	],
     "engines": {
         "vscode": "^1.5.0"
