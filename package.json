@@ -3,7 +3,7 @@
     "displayName": "heroku-cli",
     "description": "Run heroku from vscode commandline for nodejs projects.",
     "icon": "images/herokuIcon.svg",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "pkosta2005",
     "license": "SEE LICENSE IN LICENSE.md",
 	"bugs": {

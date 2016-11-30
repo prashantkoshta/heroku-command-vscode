@@ -18,6 +18,9 @@ You have to installed following software before use of this.
 
 This release include only Heroku command for nodejs based applications.
 
-### 0.0.3
+### 0.0.4
 
 Command line approach for heroku nodejs.
+
+**Enjoy!**
+[![Analytics](https://ga-beacon.appspot.com/UA-70337513-11/chromeskel_a/readme)](https://marketplace.visualstudio.com/items?itemName=pkosta2005.heroku-command)
