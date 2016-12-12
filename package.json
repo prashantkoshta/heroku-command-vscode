@@ -16,7 +16,7 @@
 		"url": "https://github.com/prashantkoshta/heroku-command-vscode.git"
 	},
 	"categories": [
-		"Keymaps", "Languages", "Other"
+		"Languages", "Other"
 	],
     "engines": {
         "vscode": "^1.5.0"
