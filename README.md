@@ -18,7 +18,7 @@ You have to installed following software before use of this.
 
 This release include only Heroku command for nodejs based applications.
 
-### 0.0.6
+### 0.0.7
 
 Command line approach for heroku nodejs.
 
