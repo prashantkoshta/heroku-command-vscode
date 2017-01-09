@@ -3,7 +3,7 @@
     "displayName": "heroku-cli",
     "description": "Run heroku from vscode commandline for nodejs projects.",
     "icon": "images/herokuIcon.svg",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "publisher": "pkosta2005",
     "license": "SEE LICENSE IN LICENSE.md",
 	"bugs": {
@@ -22,6 +22,13 @@
         "vscode": "^1.5.0"
     },
     "activationEvents": [
+        "onCommand:hext.herokuConfigSet",
+        "onCommand:hext.herokuCheckDyno",
+        "onCommand:hext.herokuUpdatePlugin",
+        "onCommand:hext.herokuRemovePlugin",
+        "onCommand:hext.herokuGetPlugins",
+        "onCommand:hext.herokuRenameApp",
+        "onCommand:hext.herokuGetAPiTooken",
         "onCommand:hext.herokuLogin",
         "onCommand:hext.herokuCreate",
         "onCommand:hext.herokuPush",
@@ -34,6 +41,34 @@
     "main": "./out/src/herokuextension",
     "contributes": {
         "commands": [
+            {
+            "command": "hext.herokuConfigSet",
+            "title": "heroku config:set"
+            }
+            {
+            "command": "hext.herokuCheckDyno",
+            "title": "heroku ps"
+            },
+            {
+            "command": "hext.herokuUpdatePlugin",
+            "title": "heroku update"
+            },
+            {
+            "command": "hext.herokuRemovePlugin",
+            "title": "heroku plugins:uninstall"
+            },
+            {
+            "command": "hext.herokuGetPlugins",
+            "title": "heroku plugins"
+            },
+            {
+            "command": "hext.herokuRenameApp",
+            "title": "heroku apps:rename"
+            },
+            {
+            "command": "hext.herokuGetAPiTooken",
+            "title": "heroku auth:token"
+            },
             {
             "command": "hext.herokuLogin",
             "title": "heroku login"
@@ -66,41 +101,7 @@
             "command": "hext.herokuConfig",
             "title": "heroku config"
             }
-        ],
-        "keybindings": [
-            {
-            "command": "hext.herokuLogin",
-            "key": "SHIFT+ALT+I"
-            },
-            {
-            "command": "hext.herokuCreate",
-            "key": "SHIFT+Alt+N"
-            },
-            {
-            "command": "hext.herokuPush",
-            "key": "SHIFT+Alt+P"
-            },
-            {
-            "command": "hext.herokuScale",
-            "key": "SHIFT+Alt+S"
-            },
-            {
-            "command": "hext.herokuOpen",
-            "key": "SHIFT+Alt+O"
-            },
-            {
-            "command": "hext.herokuLogs",
-            "key": "SHIFT+Alt+T"
-            },
-            {
-            "command": "hext.herokuLocal",
-            "key": "SHIFT+Alt+L"
-            },
-            {
-            "command": "hext.herokuConfig",
-            "key": "SHIFT+Alt+V"
-            }
-		]
+        ]
     },
     "scripts": {
         "vscode:prepublish": "tsc -p ./",
