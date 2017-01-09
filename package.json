@@ -44,7 +44,7 @@
             {
             "command": "hext.herokuConfigSet",
             "title": "heroku config:set"
-            }
+            },
             {
             "command": "hext.herokuCheckDyno",
             "title": "heroku ps"
